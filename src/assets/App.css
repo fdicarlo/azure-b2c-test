@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+    .logo {
+        width: 250px;
+        height: 250px;
+        max-width: 100%;
+        height: auto;
+    }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .login-logout-container {
+    margin-top: 2rem;
+  }
+  
+  .login-button,
+  .logout-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logout-button {
+    background-color: #dc3545;
+  }
